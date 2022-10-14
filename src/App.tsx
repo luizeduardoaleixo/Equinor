@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import MyMap from "./components/map/MyMap";
+import Maps from "./components/map/Maps";
 import useFetchData from "./services/useFetchData";
 import useCitiesStore from "./store/store";
 import { Data } from "./types/data";
@@ -30,7 +30,7 @@ function App(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
-        <MyMap></MyMap>
+        <Maps></Maps>
       </header>
     </div>
   );
