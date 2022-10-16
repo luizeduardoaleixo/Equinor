@@ -13,7 +13,6 @@ import RadiusMap from "./radius/RadiusMap";
 function Maps(): JSX.Element {
   const cities = useCitiesStore((store) => store.cities);
   const populationSum = useCitiesStore((store) => store.populationSum);
-  console.log("pop");
 
   return (
     <MapContainer
